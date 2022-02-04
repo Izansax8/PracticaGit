@@ -1,0 +1,115 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: darkgoldenrod;
+    text-shadow: 6px 6px 12px black;
+}
+
+#superior {
+    text-align: center;
+}
+
+#superior p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#paleta {
+    border-collapse: collapse;
+    margin: 2em;
+    width: 30%;
+    margin: 0 auto;
+    box-shadow: 6px 6px 12px gray;
+}
+
+#paleta td {
+    padding: 1em;
+    border: 3px solid darkslategray;
+    cursor: pointer;
+}
+
+#lienzo {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 6px 6px 12px gray;
+}
+
+#lienzo td {
+    padding: 10px;
+    border: 1px solid darkgoldenrod;
+}
+
+#borrar {
+    padding: 0.5em;
+    color: gold;
+    background-color: cadetblue;
+    border: 3px solid gold;
+    border-radius: 8px;
+    width: 15%;
+    display: block;
+    margin: 2em auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#borrar:hover {
+    color: goldenrod;
+    background-color: darkcyan;
+    border: 3px solid goldenrod;
+    cursor: pointer;
+}
+
+/*Paleta de colores*/
+.rojo {
+    background-color: red;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.magenta {
+    background-color: magenta;
+}
+
+.blanco {
+    background-color: white;
+}
+
+.naranja {
+    background-color: orangered;
+}
+
+.gris {
+    background-color: gray;
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.marron {
+    background-color: brown;
+}
+
+.morado {
+    background-color: rgb(167, 143, 167);
+}
+
+.negro {
+    background-color: black;
+}
+
